@@ -17,6 +17,5 @@ zip: clean
 	zip $(Z) Makefile src/dijkstras_main.cpp src/dijkstras.h src/dijkstras.cpp src/small.txt src/medium.txt src/large.txt src/largest.txt
 
 run: $(P)
-	./$(P)
-
+	./$(P) $(FILE)
 
