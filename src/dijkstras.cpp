@@ -51,6 +51,8 @@ void print_path(const vector<int>& path, int total) {
     for (int node : path) {
         cout << node << " ";
     }
-    cout << "(Cost: " << total << ")\n";
+    cout << endl; 
+    cout << "Total cost is " << total << endl;
 }
+
 
